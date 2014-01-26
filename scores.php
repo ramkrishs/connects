@@ -55,6 +55,11 @@ session_start();
 <input type="hidden" name="save" value="1">
 <input type="submit" value="Logout!! n Try Again" class=" btn btn-primary btn-lg">
 </form>
+
+
+<form class="exit_form2" name="login2" action="logout.php" method="post" >
+<input type="submit" value=" Logout!! n Try Again " class=" btn btn-danger btn-lg">
+</form>
 <div class="ground"></div>
 </div>
 
