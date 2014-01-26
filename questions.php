@@ -15,7 +15,7 @@ if($_SESSION['reload']>1)
 	$_SESSION['flag']=1;
 	
 }      
-//SELECT a anserwer from table
+//SELECT a anserwer from  db table
 if($_SESSION['flag']==0){
 		unset($_SESSION['start_time']);
 		$selectquery= " SELECT * FROM  `questions` WHERE `status` != 1 ORDER BY RAND( ) LIMIT 0 , 1";
