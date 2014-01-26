@@ -1,4 +1,3 @@
-
 body{
 overflow: hidden;
 
@@ -76,13 +75,21 @@ bottom: 100px;
 left: 250px;
 z-index: 10;
 }
+
 .exit_form{
 position: absolute;
-bottom: 90px;
-left: 360px;
-
+bottom: 120px;
+left: 270px;
 z-index: 99;
 }
+
+.exit_form2{
+position: absolute;
+bottom: 120px;
+left: 520px;
+z-index: 99;
+}
+
 .img_quest{
 margin: 10px;
 width: 350px;
